@@ -290,10 +290,10 @@
                         The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.
                     </p>
                 </div>
-                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-4 grid-rows-[227px]">
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-4 lg:grid-rows-[227px]">
                     <!-- 1st pic -->
-                    <div class="col-start-1 col-span-3 border-gray-200 border-1 p-7 rounded-lg max-w-[772px] flex gap-4">
-                        <img class="h-[179px]" src="assets/img1.png" alt="">
+                    <div class="lg:col-start-1 lg:col-span-3 border-gray-200 border-1 p-7 rounded-lg max-w-[772px] lg:flex gap-4">
+                        <img class="lg:h-[179px]" src="assets/img1.png" alt="">
                         <div class="">
                             <h4 class="text-xl font-bold">Commercial</h4>
                             <p>
@@ -306,7 +306,7 @@
 
                     </div>
                     <!-- 2nd pic -->
-                    <div class="col-span-2 border-gray-200 border-1 p-7 rounded-lg">
+                    <div class="lg:col-span-2 border-gray-200 border-1 p-7 rounded-lg">
                         <img class="h-[179px]" src="assets/img2.png" alt="">
                     </div>
                     <!-- 3rd pic -->
@@ -314,8 +314,8 @@
                         <img class="h-[179px]" src="assets/img3.png" alt="">
                     </div>
                     <!-- 4th pic -->
-                    <div class="col-start-2 col-span-3 border-gray-200 border-1 p-7 rounded-lg  flex gap-4">
-                        <img class="h-[179px]" src="assets/img4.png" alt="">
+                    <div class="lg:col-start-2 lg:col-span-3 border-gray-200 border-1 p-7 rounded-lg  lg:flex gap-4">
+                        <img class="lg:h-[179px]" src="assets/img4.png" alt="">
                         <div class="">
                             <h4 class="text-xl font-bold">Commercial</h4>
                             <p>
@@ -336,11 +336,67 @@
                 </div>
 
          </section>
+         <section class="bg-[url(/assets/bg.jpg)]  bg-cover pb-15">
+            <!-- lets discuss upper portion -->
+            <div class="max-w-sm lg:max-w-4xl mx-auto ">
+                <div class="space-y-5 text-center ">
+                    <button class="btn btn-xs rounded-full text-sm py-5 bg-explore">
+                        <i class="fa-solid fa-arrow-right text-sm "></i>Let's Connect</button>
+                    <h1 class="text-4xl font-bold">Let’s Discuss Next Project</h1>
+                    <p>
+                        The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.
+                    </p>
+                </div>
+                <div class="">
+                    <fieldset class="fieldset   p-4 rounded-box grid grid-cols-2 gap-4 ">
+                        
+                        <input type="text" class="input w-full rounded-full"  name="" id="" placeholder="First Name">
+                        <input type="text" class="input w-full rounded-full"  name="" id="" placeholder="Last Name">
+                        <input type="number" class="input w-full rounded-full"  name="" id="" placeholder="Phone Number">
+                        <input type="email" class="input w-full rounded-full" placeholder="Email" />
+                        <textarea name="" id="" class="input w-full rounded-s-3xl col-span-2 h-[240px] " placeholder="Write your message here"></textarea>
+                        
+                        
+                        
+                        
+                        <a class="btn col-span-2 lg:flex bg-parrot-green items-center rounded-full">Send Mail
+                            <i class="fa-solid fa-arrow-right bg-black text-xl text-white p-1 rounded-full -rotate-45"></i>
+                          </a>
+                      </fieldset>
+                </div>
+            </div>
+
+         </section>
 
     </main>
-    <footer>
+    <footer class="footer footer-horizontal footer-center bg-[#1C1C1C] text-base-content rounded p-10 text-[#737373]">
+        <!-- rinterio  -->
+         <div class="flex">
+            <i class="fa-solid fa-arrow-right bg-parrot-green text-xl p-1 rounded-full -rotate-45"></i>
+            <a class="btn btn-ghost text-xl pl-1 text-white">Rinterio</a>
+           
+         </div>
+         <p>
+            The barn house captivates with its blend of rustic charm and modern sophistication, <br> featuring weathered wood, sleek metal accents.
+        </p>
+        <nav class="grid grid-flow-col gap-15 text-[#E9E9E9]">
+          <a class="link link-hover">Home</a>
+          <a class="link link-hover">Services</a>
+          <a class="link link-hover">Portfolio</a>
+          <a class="link link-hover">Blogs</a>
+          <a class="link link-hover">Contact Us</a>
 
-    </footer>
+          
+        
+        </nav>
+        <div>
+            <a class="btn col-span-2 lg:flex bg-parrot-green items-center rounded-full border-none shadow-none">Book Consult
+                <i class="fa-solid fa-arrow-right bg-black text-xl text-white p-1 rounded-full -rotate-45"></i>
+              </a>
+        </div>
+        
+       
+      </footer>
     
 </body>
 </html>
